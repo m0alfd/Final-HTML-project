@@ -1,0 +1,61 @@
+* {
+  background-color: #e1dcd6;
+}
+
+li * {
+  font-family: Lora;
+  text-align: justify;
+  color: #52512d;
+  text-decoration: italic;
+  border-radius: 10px;
+}
+
+body {
+  font-family: Noto Serif Oriya, Lora;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+  color: #52512d;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.about {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+}
+
+.link-button {
+  background-color: #52512d;
+  color: #e0dbd7;
+  text-decoration: italic;
+  padding: 15px;
+  border-radius: 8px;
+  display: block;
+}
